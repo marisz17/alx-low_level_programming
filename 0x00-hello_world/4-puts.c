@@ -3,7 +3,7 @@
 /**
  *main - uses puts
  *
- *return: number to be returned
+ *Return: number to be returned
  */
 int main(void)
 {
