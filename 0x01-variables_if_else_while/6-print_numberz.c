@@ -8,12 +8,12 @@
 int main(void)
 {
 	int i;
-	int x = '_';
+	int x = 32;
 
 	for (i = 0 ; i < 10; i += 1)
 	{
 		putchar(i + '0');
 	}
-	putchar(x + '0');
+	putchar(x);
 	return (0);
 }
