@@ -18,15 +18,18 @@ int main(void)
     {
       for (k = 48 ; k < 58 ; k++)
       {
-        if (i < j && j < k)
+        if (i < j)
         {
-          putchar(i);
-          putchar(j);
-          putchar(k);
-          if (i < 55)
+          if ( j < k)
           {
-            putchar(44);
-            putchar(32);
+            putchar(i);
+            putchar(j);
+            putchar(k);
+            if (i < 55)
+            {
+              putchar(44);
+              putchar(32);
+            }
           }
         }
       }
