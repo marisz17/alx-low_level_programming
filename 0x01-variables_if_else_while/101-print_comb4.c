@@ -14,7 +14,7 @@ int main(void)
 
   for (i = 48 ; i < 58 ; i++)
   {
-    for (j = 48 ; j < 58 ; i++)
+    for (j = 48 ; j < 58 ; j++)
     {
       for (k = 48 ; k < 58 ; k++)
       {
