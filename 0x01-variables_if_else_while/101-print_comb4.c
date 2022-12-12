@@ -20,7 +20,7 @@ int main(void)
 			{
 				if (i < j)
 				{
-					if ( j < k)
+					if (j < k)
 					{
 						putchar(i);
 						putchar(j);
