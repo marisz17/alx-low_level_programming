@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- *main - prints _putchar from function _putchar()
+/**
+ *main - prints from function
  *
  *Return: zero
  */
-
 int main(void)
 {
 	_putchar(95);
