@@ -1,16 +1,21 @@
 #include "main.h"
-#include "1-print_alphabet.c"
+
 /**
- *print_alphabet_x10 - prints lowcase alphax10
+ *print_alphabet_x10 - prints lowcase alpha ten times
  *
  *
  */
 void print_alphabet_x10(void)
 {
 	int i;
+	int j;
 
-	for (i = 0 ; i <= 9; i += 1)
+	for (j = 0 ; j <= 9 ; j++)
 	{
-		print_alphabet();
+		for (i = 97 ; i <= 122; i += 1)
+		{
+			_putchar(i);
+		}
+		_putchar(10);
 	}
 }
