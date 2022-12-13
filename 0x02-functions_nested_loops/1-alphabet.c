@@ -5,9 +5,11 @@
  */
 void print_alphabet(void)
 {
+	int i;
+
 	for (i = 97 ; i <= 122; i += 1)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar(10);
+	_putchar(10);
 }
