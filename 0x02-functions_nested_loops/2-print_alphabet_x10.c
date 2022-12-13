@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "1-print_alphabet.c"
 /**
  *print_alphabet_x10 - prints lowcase alphax10
  *
