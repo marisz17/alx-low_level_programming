@@ -10,8 +10,7 @@
 char main(void)
 {
 	char x = "_putchar";
-	char y;
 
-	y = _putchar(x);
-	return y;
+	x = _putchar(x);
+	return (0);
 }
