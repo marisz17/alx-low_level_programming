@@ -19,4 +19,5 @@ int print_sign(int n)
 		_putchar(45);
 		_putchar(49);
 	}
+	return (0);
 }
