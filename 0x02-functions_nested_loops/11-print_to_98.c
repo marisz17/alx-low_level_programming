@@ -4,9 +4,9 @@
 /**
  *print_to_98 - print range to 98
  *@n: number
- *Return: zero
+ *Return: null
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	int i;
 
@@ -24,5 +24,4 @@ int print_to_98(int n)
 			_putchar(i + '0');
 		}
 	}
-	return (0);
 }
