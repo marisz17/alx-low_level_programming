@@ -6,7 +6,7 @@
  *
  *Return: void
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int i = 1;
 	int j = 0;
@@ -20,14 +20,16 @@ void puts2(char *str)
 	}
 	if (j % 2 == 0)
 	{
-		m = 0;
+		for (m = j / 2 ; m < j ; m++)
+		{
+			_putchar(str[m]);
+		}
 	} else
 	{
-		m = (j - 1) / 2;
+		for (m = (j + 1) / 2 ; m < j ; m++)
+		{
+			_putchar(str[m]);
+		}
 	}
-	while (str[m] != '\0')
-	{
-		m++;
-		_putchar(str[m]);
-	}
+	_putchar(10);
 }
